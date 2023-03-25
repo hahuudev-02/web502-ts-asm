@@ -1,0 +1,14 @@
+.line-2 {
+    position: relative;
+}
+
+.line-2::after {
+    content: "";
+    display: block;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 1px;
+    left: 0;
+    right: 0;
+    background-color: #fff;
+}
